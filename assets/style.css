@@ -1,11 +1,8 @@
-/* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
 :root {
-  /* declare a variable with `--` syntax */
   --dark: #13293d;
   --light: #fff;
   --navlink-color: #b9c6ae;
   --background-color-headlines: rgb(237, 237, 245);
-
 }
 
 body {
@@ -13,8 +10,8 @@ body {
   flex-direction: column;
   line-height: 1.3;
   margin:5px;
-  paddning:5%;
   background-color: var(--background-color-headlines);
+  overflow:auto;
 
 }
 
@@ -35,7 +32,6 @@ h2 {
   margin: 2% 0;
   font-size: 250%;
 }
-
 
 nav ul {
   display: flex;
@@ -131,8 +127,8 @@ nav a:hover {
   display:flex;
   position:relative;
   justify-content: space-around;
-  width: 290px; /* Ensure the image doesn't exceed its natural size */
-  height: 150px; /* Ensure the image doesn't exceed its natural size */
+  width: 290px;
+  height: 150px; 
   border: 4px solid black;
   margin:5px;
 }
@@ -141,8 +137,8 @@ nav a:hover {
   display:flex;
   position:relative;
   justify-content: space-around;
-  width: 600px; /* Ensure the image doesn't exceed its natural size */
-  height: 150px; /* Ensure the image doesn't exceed its natural size */
+  width: 600px; 
+  height: 150px; 
   border: 4px solid black;
   margin:5px;
 }
@@ -150,11 +146,11 @@ nav a:hover {
 .container-aboutme-work-image img {
   width: 100%; 
   max-width: 100%;
-  opacity: 0.5; /* Set the opacity to 70% (adjust as needed) */
+  opacity: 0.5; 
 }
 
 .container-aboutme-work-image img:hover{
-  opacity: 1.0; /* Set the opacity to 70% (adjust as needed) */
+  opacity: 1.0; 
 }
 
 
@@ -196,13 +192,10 @@ nav a:hover {
 }
 
 
-
 @media screen and (max-width: 768px) {
   header,.container-contactme-text {
     flex-direction: column;
   }
-
-
 
   main {
     max-width: 1200px;
