@@ -14,7 +14,7 @@ body {
   margin:5px;
   background-color: var(--background-color-headlines);
   overflow:auto;
-
+  color: black; /* Set text color to black */
 }
 
 /*Header styles*/
@@ -22,8 +22,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-   background-color: var(--dark);
-  color: var(--light);
+  background-color: var(--dark);
+  color: black;
   padding:10px;
 }
 
@@ -35,6 +35,7 @@ h2 {
   margin: 2% 0;
   font-size: 250%;
 }
+
 /*Navigation bar styles*/
 nav ul {
   display: flex;
@@ -44,7 +45,7 @@ nav ul {
 
 nav a {
   background-color: unset;
-  color: var(--navlink-color);
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
@@ -52,6 +53,7 @@ nav a {
 nav a:hover {
   color: var(--light);
 }
+
 /*Container for the body  */
 .container-all {
   display: flex;
@@ -59,33 +61,34 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: flex-start;
   width:100%;
-
 }
+
 /*Container for the hurricane from space image  */
 .container-image {
   position: relative; 
   width: 100%; 
   flex: 0 0 100%;
-
 }
 
 .image-hurricane {
   width: 100%; 
   max-width: 100%;
 }
+
 /*Caption for the hurricane from space image  */
 .caption-hurricane-image {
   position: absolute;
   bottom: 10%;
   left: 2%;
   background-color:var(--dark); 
-  color: #fff; 
+  color: black; 
   max-width: 50%; 
   padding: 10px; 
   text-align: center;
 }
+
 /*Styles for the About Me section  */
-.container-aboutme{
+.container-aboutme {
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -95,10 +98,10 @@ nav a:hover {
 }
 
 /*Styles for the section titles  */
-.title{
+.title {
   display:flex;
   flex: 0 0 25%;
-  color:var(--color-text-headlines);
+  color:black;
   font-size:25px;
   justify-content: flex-end;
   border: 4px solid black; 
@@ -108,26 +111,25 @@ nav a:hover {
   text-align: right;
   padding-right:1%;
 }
-.container-aboutme-text{
+
+.container-aboutme-text {
   display:flex;
   flex: 0 0 70%;
   font-size: 20px;
   padding:1%;
 }
+
 /*Styles for Work section  */
-.container-aboutme-work{
+.container-aboutme-work {
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
   justify-content: flex-start;
   flex: 0 0 70%;
   padding:1%;
-
 }
 
-
-
-.container-aboutme-work-image{
+.container-aboutme-work-image {
   display:flex;
   position:relative;
   justify-content: space-around;
@@ -137,9 +139,7 @@ nav a:hover {
   margin:5px;
 }
 
-
-
-.container-aboutme-work-image-full-length{
+.container-aboutme-work-image-full-length {
   display:flex;
   position:relative;
   justify-content: space-around;
@@ -155,27 +155,28 @@ nav a:hover {
   opacity: 0.5; 
 }
 
-.container-aboutme-work-image img:hover{
+.container-aboutme-work-image img:hover {
   opacity: 1.0; 
 }
-
-
 
 .caption-aboutme-work-image {
   position: absolute;
   bottom: 2%;
   left: 2%;
   background-color:var(--dark); 
-  color: #fff; 
+  color: black; 
   max-width: 70%;
   padding: 10px; 
   text-align: center;
 }
 
+.caption-aboutme-work-image a {
+  text-decoration: "underline"; 
+}
 
 
 /*Styles for Contact Me section  */
-.container-contactme{
+.container-contactme {
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -183,7 +184,7 @@ nav a:hover {
   padding-top:20px;
 }
 
-.container-contactme-text{
+.container-contactme-text {
   display:flex;
   flex: 0 0 70%;
   justify-content: space-around;
@@ -192,7 +193,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-.contact-me-text{
+.contact-me-text {
   display:flex;
   border: 4px solid black;
   border-top:none;
