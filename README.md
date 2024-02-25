@@ -7,7 +7,7 @@ This repository builds a personal portfolio from scratch using HTML and advanced
 <img width="1299" alt="Screen Shot 2023-10-10 at 11 15 14 PM" src="https://github.com/jalland/module_2_challenge/assets/15932648/0e9debcc-e4a9-4587-8572-c24b5bde1315">
 
 ## Deployed Website
-https://jalland.github.io/module_2_challenge/
+https://jalland.github.io/alland_portfolio/
 
 
 ## User Story
