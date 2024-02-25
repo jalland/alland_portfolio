@@ -1,10 +1,12 @@
+/*Default styles for website*/
 :root {
-  --dark: #13293d;
+  --dark: #c9ddef;
   --light: #fff;
   --navlink-color: #b9c6ae;
   --background-color-headlines: rgb(237, 237, 245);
 }
 
+/*Default styles for body of website*/
 body {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,7 @@ body {
 
 }
 
+/*Header styles*/
 header {
   display: flex;
   justify-content: space-between;
@@ -32,7 +35,7 @@ h2 {
   margin: 2% 0;
   font-size: 250%;
 }
-
+/*Navigation bar styles*/
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -49,7 +52,7 @@ nav a {
 nav a:hover {
   color: var(--light);
 }
-
+/*Container for the body  */
 .container-all {
   display: flex;
   flex-direction: row;
@@ -58,7 +61,7 @@ nav a:hover {
   width:100%;
 
 }
-
+/*Container for the hurricane from space image  */
 .container-image {
   position: relative; 
   width: 100%; 
@@ -70,7 +73,7 @@ nav a:hover {
   width: 100%; 
   max-width: 100%;
 }
-
+/*Caption for the hurricane from space image  */
 .caption-hurricane-image {
   position: absolute;
   bottom: 10%;
@@ -81,7 +84,7 @@ nav a:hover {
   padding: 10px; 
   text-align: center;
 }
-
+/*Styles for the About Me section  */
 .container-aboutme{
   display:flex;
   flex-wrap: wrap;
@@ -91,6 +94,7 @@ nav a:hover {
   padding-top:20px;
 }
 
+/*Styles for the section titles  */
 .title{
   display:flex;
   flex: 0 0 25%;
@@ -104,14 +108,13 @@ nav a:hover {
   text-align: right;
   padding-right:1%;
 }
-
 .container-aboutme-text{
   display:flex;
   flex: 0 0 70%;
   font-size: 20px;
   padding:1%;
 }
-
+/*Styles for Work section  */
 .container-aboutme-work{
   display:flex;
   flex-wrap:wrap;
@@ -165,7 +168,7 @@ nav a:hover {
   padding: 10px; 
   text-align: center;
 }
-
+/*Styles for Contact Me section  */
 .container-contactme{
   display:flex;
   flex-wrap: wrap;
@@ -191,7 +194,7 @@ nav a:hover {
   border-right:none; 
 }
 
-
+/*Responsiveness criteria*/
 @media screen and (max-width: 768px) {
   header,.container-contactme-text {
     flex-direction: column;
