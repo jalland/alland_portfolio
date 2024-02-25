@@ -1,4 +1,4 @@
-# module_2_challenge
+# Josh Alland Portfolio
 
 ## Description
 This repository builds a personal portfolio from scratch using HTML and advanced CSS. The website is responsive so the user experience is good for any device, including desktops, tablets, and phones. See the screenshot below for the look of the site It is a bit different than the Mock Up gif on Canvas, but it has similar capabilities, including flex display, pseudo-classes (e.g., hovering), media queries, and the assignment of variables within the css. 
